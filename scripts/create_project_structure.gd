@@ -18,6 +18,19 @@ func _run():
 				print("✅ Created: " + folder)
 			else:
 				print("✔️ Already exists: " + folder)
+				
+			# Check if README.md exists in the folder, and create it if not
+			var readme_path = path + "/README.md"
+			if not dir.file_exists(readme_path):
+				var file = FileAccess.open(readme_path, FileAccess.WRITE)
+				# Use index -1 to get the last element
+				file.store_line("# " + folder + " - Folder Documentation")
+				file.store_line("This folder contains the resources and assets for the " + folder.split("/")[folder.split("/").size() - 1] + " section of the project.")
+				file.close()
+				print("📄 Created README.md in: " + folder)
+			else:
+				print("✔️ README.md already exists in: " + folder)
+		
 		print("\n🎉 Project structure initialized successfully!")
 	else:
 		print("❌ Failed to access project directory.")
