@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://8x1pcva28n4c"]
+[gd_scene load_steps=7 format=3 uid="uid://8x1pcva28n4c"]
 
 [ext_resource type="Script" path="res://scenes/character_body_3d.gd" id="1_6fmph"]
+[ext_resource type="Script" path="res://scenes/camera_3d.gd" id="2_mmugc"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_w2q1u"]
 
@@ -45,3 +46,4 @@ shape = SubResource("CapsuleShape3D_or2kl")
 mesh = SubResource("CapsuleMesh_o6aeg")
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+script = ExtResource("2_mmugc")

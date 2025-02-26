@@ -6,8 +6,12 @@ I created StaticBody3D with subnodes of BoxMesh MeshInstance3D for visiblity and
 I created StaticBody3D2 with subnodes of BoxMesh MeshInstance3D for visiblity and BoxShape CollisionShape3D to act as a second floor for CharacterBody3D to look at, walk and jump on.
 I created a CharacterBody3D with subnodes of CapsuleMesh MeshInstance3D for visiblity and CapsuleShape CollisionShape3D for interaction with the CharacterBody3D floor. I also added subnode of Camera3D to see from the perspective of CharacterBody3D. I attached built-in script CharacterBody3D: Basic Movement and saved as character_body_3d.gd to jump and allow control movement of CharacterBody3D Node.
 
-
+--- Version 2
 TODO: Control Camera3D with the mouse.
+I created a new camera_3d.gd script and attached to the Camera3D of CharacterBody3D.
+TODO: Extend CharacterBody3D and Map Keyboard WASD as Movement Input.
+
+
 TODO: Create script to generate a chunk of StaticBody3D.
 TODO: Spawn Multiplayer player.
 TODO: Spawn a Zombie.
