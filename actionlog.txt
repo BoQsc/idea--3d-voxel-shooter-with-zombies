@@ -1,0 +1,22 @@
+actionlog.txt
+--- Verrsion 1
+I created Node3D to act as a game_world.tscn scene node. 
+I created DirectionalLight3D to allow CharacterBody3D better see StaticBody3D2 from perspective of CharacterBody3D.
+I created StaticBody3D with subnodes of BoxMesh MeshInstance3D for visiblity and BoxShape CollisionShape3D to act as a floor for CharacterBody3D.
+I created StaticBody3D2 with subnodes of BoxMesh MeshInstance3D for visiblity and BoxShape CollisionShape3D to act as a second floor for CharacterBody3D to look at, walk and jump on.
+I created a CharacterBody3D with subnodes of CapsuleMesh MeshInstance3D for visiblity and CapsuleShape CollisionShape3D for interaction with the CharacterBody3D floor. I also added subnode of Camera3D to see from the perspective of CharacterBody3D. I attached built-in script CharacterBody3D: Basic Movement and saved as character_body_3d.gd to jump and allow control movement of CharacterBody3D Node.
+
+
+TODO: Control Camera3D with the mouse.
+TODO: Create script to generate a chunk of StaticBody3D.
+TODO: Spawn Multiplayer player.
+TODO: Spawn a Zombie.
+TODO: Create a scene for playing.
+TODO: Make Zombie Move, Attack.
+TODO: Make Zombie Spawn.
+TODO: Make Zombie Move Around.
+TODO: Make player destroy StaticBody3D
+TODO: Add player item Pickaxe, Sword and Pistol.
+TODO: Add player UI: Health bar and Ammo label.
+TODO: Add inventory system and toolbelt.
+TODO: Add vehicle and vehicle interaction.
