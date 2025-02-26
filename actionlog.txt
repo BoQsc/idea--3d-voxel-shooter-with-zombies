@@ -1,5 +1,5 @@
 actionlog.txt
---- Verrsion 1
+--- Version 1
 I created Node3D to act as a game_world.tscn scene node. 
 I created DirectionalLight3D to allow CharacterBody3D better see StaticBody3D2 from perspective of CharacterBody3D.
 I created StaticBody3D with subnodes of BoxMesh MeshInstance3D for visiblity and BoxShape CollisionShape3D to act as a floor for CharacterBody3D.
