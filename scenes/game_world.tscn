@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://8x1pcva28n4c"]
 
-[ext_resource type="Script" path="res://scenes/character_body_3d.gd" id="1_6fmph"]
+[ext_resource type="Script" path="res://scenes/character_body_3d_input_wasd.gd" id="1_oemyr"]
 [ext_resource type="Script" path="res://scenes/camera_3d.gd" id="2_mmugc"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_w2q1u"]
@@ -37,7 +37,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.23284, 0)
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.59886, 0)
-script = ExtResource("1_6fmph")
+script = ExtResource("1_oemyr")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
 shape = SubResource("CapsuleShape3D_or2kl")
