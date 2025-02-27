@@ -10,7 +10,9 @@ I created a CharacterBody3D with subnodes of CapsuleMesh MeshInstance3D for visi
 TODO: Control Camera3D with the mouse.
 I created a new camera_3d.gd script and attached to the Camera3D of CharacterBody3D.
 TODO: Extend CharacterBody3D and Map Keyboard WASD as Movement Input.
-
+character_body_3d_input_wasd.gd
+I extended CharacterBody3D script by clicking the Extend Script option on the CharacterBody3D in the scene browser. 
+Script extends "res://scenes/character_body_3d.gd" and overwrites all previous methods and logic except for already defined global variables. This is working, but I'm not feeling great about this as it overwrites a lot of logic and makes the extended script the main dependency for all the logic instead of only WASD controls. It also introduces unexplainable flickering outside the game window. 
 
 TODO: Create script to generate a chunk of StaticBody3D.
 TODO: Spawn Multiplayer player.
