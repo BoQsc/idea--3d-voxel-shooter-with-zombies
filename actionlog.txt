@@ -17,6 +17,11 @@ Mapping and decoupling might be relevant.
 It seems like overriding entire function and calling the super() is the one I know now.
 	super._physics_process(delta) # Call the parent function properly
 There I have not found patching system like harmony to replace certain local variables of a function in another script.
+Is there a way to replace local variable's name of extended script function?
+"How to change from Arrow Keys to WASD for character_body_3d.gd"
+I'm currently appearing at the stage of organizing project and foundational interactions.
+How I Organize My 10k+ Line Godot Project! https://www.youtube.com/watch?v=4az0VX9ApcA
++Large Godot Project Organization https://chatgpt.com/c/67c1992b-0804-800b-bfbc-cc7191c59f7d
 
 TODO: Create script to generate a chunk of StaticBody3D.
 TODO: Spawn Multiplayer player.
