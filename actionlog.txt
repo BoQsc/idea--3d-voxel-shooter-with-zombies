@@ -22,7 +22,7 @@ Is there a way to replace local variable's name of extended script function?
 I'm currently appearing at the stage of organizing project and foundational interactions.
 How I Organize My 10k+ Line Godot Project! https://www.youtube.com/watch?v=4az0VX9ApcA
 +Large Godot Project Organization https://chatgpt.com/c/67c1992b-0804-800b-bfbc-cc7191c59f7d
-For now it seems like splitting the original code and overwriting the movement function is the way.
+For now it seems like splitting the original code and overwriting the input keys funciton or overwriting the entire movement function is the way.
 
 
 TODO: Create script to generate a chunk of StaticBody3D.
