@@ -14,6 +14,9 @@ character_body_3d_input_wasd.gd
 I extended CharacterBody3D script by clicking the Extend Script option on the CharacterBody3D in the scene browser. 
 Script extends "res://scenes/character_body_3d.gd" and overwrites all previous methods and logic except for already defined global variables. This is working, but I'm not feeling great about this as it overwrites a lot of logic and makes the extended script the main dependency for all the logic instead of only WASD controls. It also introduces unexplainable flickering outside the game window. I might need to try to remove/append to result variables and make this way WASD possible.
 Mapping and decoupling might be relevant.
+It seems like overriding entire function and calling the super() is the one I know now.
+	super._physics_process(delta) # Call the parent function properly
+There I have not found patching system like harmony to replace certain local variables of a function in another script.
 
 TODO: Create script to generate a chunk of StaticBody3D.
 TODO: Spawn Multiplayer player.
