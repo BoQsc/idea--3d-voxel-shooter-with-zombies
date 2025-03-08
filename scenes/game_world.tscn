@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://8x1pcva28n4c"]
 
-[ext_resource type="Script" path="res://scenes/character_body_3d_input_wasd.gd" id="1_oemyr"]
-[ext_resource type="Script" path="res://scenes/camera_3d.gd" id="2_mmugc"]
+[ext_resource type="Script" uid="uid://b4if54x2a6f6b" path="res://scenes/character_body_3d_input_wasd.gd" id="1_oemyr"]
+[ext_resource type="Script" uid="uid://dfp5to3fwdqxs" path="res://scenes/camera_3d.gd" id="2_mmugc"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_w2q1u"]
 
